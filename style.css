@@ -1,0 +1,282 @@
+*{
+    margin: 100;
+    padding: 0;
+}
+body{
+    background-image:url("https://images.hdqwalls.com/download/astronaut-lost-in-space-rk-1920x1080.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    font-family: 'popping' , sans-serif;
+}
+h2{
+    font-size: 50px;
+    color: rgb(31, 135, 161);;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.inputbox
+{
+    padding-left:20px; 
+    padding-bottom:10px;
+     bottom: 30px; 
+     position: relative;
+     border-bottom: 2px solid rgb(31, 135, 161);
+         width: 60%;
+         left: 90px;
+         height: 18px;
+}
+::placeholder
+{
+    color: rgb(31, 135, 161);
+}
+.inputbox input
+{
+    width: 80%;
+    height: 30px;
+    background: transparent;
+border:none;
+    outline: none;
+    transition: all 0.2s;
+}
+.inputbox input:hover
+{
+    transform: translateY(-10px);
+}
+.inputboxx
+{
+    padding-bottom:20px;
+    padding-left: 20px; 
+    position: relative;
+     border-bottom: 2px solid rgb(31, 135, 161);
+bottom: 10px;
+         width: 60%;
+         left: 90px;
+         height: 18px;
+}
+.inputboxx input
+{
+    width: 80%;
+    height: 30px;
+    background: transparent;
+border:none;
+    outline: none;  
+    transition: all 0.2s;
+}
+.inputboxx input:hover
+{
+    transform: translateY(-10px);
+}
+.box
+{
+
+    border: 1px solid rgb(31, 135, 161);;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 5%;
+    width: 400px;
+    height:400px ;
+    margin: 5% auto; 
+    border-left: 3px solid rgb(31, 135, 161);
+    border-right: 3px solid rgb(177, 80, 24);
+    box-shadow: 0 0 3rem white;
+   
+}
+button {
+
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgb(31, 135, 161);;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+}
+.Remember{
+    color: rgb(31, 135, 161);
+    font-size: medium;
+    text-align: center;
+}
+.register p a{
+ text-decoration: none;
+color: rgb(31, 135, 161);
+font-weight: 500;
+}
+.register p a:hover{
+    text-decoration: underline;
+   }
+.setting
+{
+    margin: 1px;
+    padding: 10px 95px;
+    border: 2px solid rgb(168, 57, 57);
+   border-radius: 10px;
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    background: none;
+    backdrop-filter: blur(15px);
+    border: none;
+    padding-left: 30px;
+padding-top: 10px;
+height: 10vh; 
+}
+.logo
+{
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    padding-left: 25px;
+color: rgb(255, 255, 255);
+    font-size: 25px;
+font-family:'Times New Roman', Times, serif;
+font-style: oblique;
+}
+.logo::after 
+{
+    content: "";
+    position: absolute;
+    width: 5%;
+    left: 3.5%;
+    height: 2px;
+    background-color: rgb(31, 135, 161);
+    transform: scaleX(0);
+bottom: 13px;
+    transform-origin: bottom left;
+    transition: all 0.5s ;
+}
+.logo:hover::after {
+    transform: scaleX(1);
+}
+.setting a {
+    text-decoration: none;
+    background: transparent;
+    color: rgb(247, 247, 247);
+}
+.setting a :hover {
+   color: rgb(31, 135, 161);;
+   color: rgb(31, 135, 161);;
+    transition:  0.5s;
+}
+.st {
+    z-index: 99;
+    padding:3px 100px;
+    border: 1px solid rgb(31, 135, 161);
+    border-width: 1px;
+    border-radius: 5px;
+    width: 1px;
+    height: 25px;
+    padding-left: 35px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+font-style: oblique;
+color: rgb(255, 255, 255);
+    transform: translateY(-215%) translateX(800%);
+    transition: all 0.3s;
+}
+.st :hover{
+    color: rgb(247, 146, 88);;
+    transition:  0.2s;
+}
+.st:hover
+{
+    transform: translateY(-250%) translateX(800%);
+}
+.about
+{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+font-style: oblique;
+    transform: translateX(699%) translateY(-325%) ;
+    border: 1px solid rgb(31, 135, 161);
+    width: 99px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:35px; 
+    height: 30px;
+    transition: all 0.2s;
+}
+.about:hover{
+    transform: translateX(699%) translateY(-350%) ;
+}
+.about :hover{
+    color: rgb(247, 146, 88);;
+    transition:  0.2s;
+}
+.service{
+    transform: translateX(590%) translateY(-420%) ;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+font-style: oblique;
+    border: 1px solid rgb(31, 135, 161);;
+    width: 99px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:35px; 
+    height: 30px;
+    transition: all 0.3s;
+}
+.service :hover{
+    color: rgb(247, 146, 88);;
+    transition:  0.2s;
+}
+.service:hover
+{
+    transform: translateX(590%) translateY(-450%)
+}
+.contact
+{
+    transform: translateX(482%) translateY(-520%) ;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+font-style: oblique;
+
+    border: 1px solid rgb(31, 135, 161);
+    width: 99px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:35px; 
+    height: 30px;
+    transition: all 0.3s;
+}
+.contact :hover{
+    color:  rgb(247, 146, 88);;
+    transition:  0.2s;
+}
+.contact:hover
+{
+    transform: translateX(482%) translateY(-550%) ; 
+}
+.serch
+{
+    transform: translateX(80%) translateY(-100%);
+    width: 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(31, 135, 161);
+    width: 300px;
+    bottom: 5px;   
+}
+.serch input
+{
+    color: red;
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    background: transparent;
+    border:none;
+    outline:none;
+ transition: all 0.2s
+}
+.serch input:hover
+{
+    transform: translateY(-10px);
+}
