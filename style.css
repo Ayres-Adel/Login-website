@@ -8,6 +8,9 @@ body{
     background-size: 100%;
     font-family: 'popping' , sans-serif;
 }
+a {
+    color: rgb(31, 135, 161);;
+}
 h2{
     font-size: 50px;
     color: rgb(31, 135, 161);;
@@ -52,10 +55,10 @@ border:none;
     padding-left: 20px; 
     position: relative;
      border-bottom: 2px solid rgb(31, 135, 161);
-bottom: 10px;
-         width: 60%;
-         left: 90px;
-         height: 18px;
+    bottom: 10px;
+     width: 60%;
+     left: 90px;
+     height: 18px;
 }
 .inputboxx input
 {
@@ -97,6 +100,7 @@ button {
     text-decoration: none;
 }
 .Remember{
+    margin-top: 10px;
     color: rgb(31, 135, 161);
     font-size: medium;
     text-align: center;
@@ -114,16 +118,16 @@ font-weight: 500;
     margin: 1px;
     padding: 10px 95px;
     border: 2px solid rgb(168, 57, 57);
-   border-radius: 10px;
+    border-radius: 10px;
     top: 0%;
     left: 0%;
     width: 90%;
     background: none;
-    backdrop-filter: blur(15px);
+    
     border: none;
     padding-left: 30px;
-padding-top: 10px;
-height: 10vh; 
+    padding-top: 10px;
+    height: 10vh; 
 }
 .logo
 {
@@ -279,4 +283,14 @@ font-style: oblique;
 .serch input:hover
 {
     transform: translateY(-10px);
+}
+.button_log_in  {
+    color:rgb(31, 135, 161);
+    background-color: transparent;
+    margin-top: 20px; 
+    transition: 0.5s;
+}
+
+.button_log_in:hover {
+    background-color: rgba(226, 229, 236, 0.479);
 }
